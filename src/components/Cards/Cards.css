@@ -1,0 +1,48 @@
+.cardItem {
+  background: #fff;
+  color: black;
+  height: auto;
+  margin: auto;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  box-shadow: 0px 10px 25px 0px rgba(44, 51, 50, 0.63);
+}
+
+.cardItem button {
+  margin: auto;
+}
+
+.confirmed {
+  border-bottom: 5px solid rgb(251, 176, 64);
+}
+
+.recovered {
+  border-bottom: 5px solid green;
+}
+
+.deaths {
+  border-bottom: 5px solid red;
+}
+
+.cardsValueConfirmed,
+.cardsValueRecovered,
+.cardsValueDeaths {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  display: block;
+}
+
+.cardsValueConfirmed {
+  color: rgb(251, 176, 64);
+}
+
+.cardsValueRecovered {
+  color: green;
+}
+
+.cardsValueDeaths {
+  color: red;
+}
